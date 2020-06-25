@@ -1,0 +1,27 @@
+{
+    "name":"MaixCube_eSpeak",
+    "description":"speak-ng library for MaixCube",
+    "keywords":"speech",
+    "authors":
+    {
+      "name": "fukuen",
+      "maintainer": true
+    },
+    "repository":
+    {
+      "type": "git",
+      "url": "https://github.com/fukuen/MaixCube_eSpeak"
+    },
+    "version": "0.0.1",
+    "license": "GPL",
+    "frameworks": "arduino",
+    "build": {
+      "flags": [
+          "-Wno-format-truncation",
+          "-Wno-format-overflow",
+          "-Isrc/compat",
+          "-Isrc/espeak"
+      ]
+    }
+  }
+  
